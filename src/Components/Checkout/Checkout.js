@@ -16,26 +16,7 @@ function Checkout() {
   const { userInfo } = useSelector((state) => state.login);
 
   const isLogin = userInfo?.user?.token;
-
-  // const sweet = () =>
-  //   Swal.fire("Good job!", "You clicked the button!", "success");
-
-  // const notify = () =>
-  //   toast.success("Success", {
-  //     position: "top-center",
-  //     autoClose: 5000,
-  //     hideProgressBar: false,
-  //     closeOnClick: false,
-  //     pauseOnHover: false,
-  //     draggable: false,
-  //     progress: undefined,
-  //     theme: "light",
-  //   });
-
-  // const doneHandler = () => {
-  //   dispatch(cartItemsReset());
-  // };
-
+  
   useEffect(() => {
     if (!isLogin) {
       navigate("/");
