@@ -66,9 +66,6 @@ function Address() {
         ),
     }),
   });
-  // const checkOrder = order.orderItems?.find(
-  //   (item) => item.name === cartItems.name
-  // );
 
   return (
     <>
