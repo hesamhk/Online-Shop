@@ -90,12 +90,6 @@ function Main() {
           </div>
         </div>
       </div>
-      {/* <a
-        href="https://sana.adliran.ir/Sana/Index"
-        className="w-[50px] h-[60px] bg-slate-200 rounded-md cursor-pointer"
-      >
-        Next
-      </a> */}
     </div>
   );
 }
