@@ -82,30 +82,6 @@ function ProductDetails() {
         (<ToastContainer />))
       ) : (
         <section>
-          {/* {checkProductIncart &&
-            (toast.warn("It is in the Cart.", {
-              position: "top-center",
-              autoClose: 5000,
-              hideProgressBar: false,
-              closeOnClick: false,
-              pauseOnHover: false,
-              draggable: false,
-              progress: undefined,
-              theme: "light",
-            }),
-            (<ToastContainer />))} */}
-          {/* {success &&
-            (toast.success("Added to Cart.", {
-              position: "top-center",
-              autoClose: 5000,
-              hideProgressBar: false,
-              closeOnClick: false,
-              pauseOnHover: false,
-              draggable: false,
-              progress: undefined,
-              theme: "light",
-            }),
-            (<ToastContainer />))} */}
           <div class="relative max-w-screen-xl px-4 py-8 mx-auto">
             <div class="grid items-start grid-cols-1 gap-8 md:grid-cols-2">
               <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
@@ -175,28 +151,3 @@ function ProductDetails() {
 
 export default ProductDetails;
 
-// qty < 1
-//   ? (toast.warn("Not available.", {
-//       position: "top-center",
-//       autoClose: 5000,
-//       hideProgressBar: false,
-//       closeOnClick: false,
-//       pauseOnHover: false,
-//       draggable: false,
-//       progress: undefined,
-//       theme: "light",
-//     }),
-//     (<ToastContainer />))
-//   : qty > product.countInStock
-//   ? (toast.warn("Not available.", {
-//       position: "top-center",
-//       autoClose: 5000,
-//       hideProgressBar: false,
-//       closeOnClick: false,
-//       pauseOnHover: false,
-//       draggable: false,
-//       progress: undefined,
-//       theme: "light",
-//     }),
-//     (<ToastContainer />))
-//   :
